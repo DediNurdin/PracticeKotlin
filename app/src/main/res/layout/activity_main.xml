@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_pilih_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100">
+
+        <Button
+            android:id="@+id/bt_pilih_file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/spacing_standard"
+            android:layout_weight="30"
+            android:text="Pilih File"
+            android:backgroundTint="@color/green"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_kembali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/spacing_standard"
+            android:layout_weight="35"
+            android:text="Prev"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_selanjutnya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/spacing_standard"
+            android:layout_weight="35"
+            android:text="Next"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_lampiran"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_below="@+id/ll_theme"
+        android:layout_marginHorizontal="40dp"
+        android:padding="3dp"
+        android:visibility="visible">
+
+        <com.jsibbold.zoomage.ZoomageView
+            android:id="@+id/iv_lampiran"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="todo"
+            app:zoomage_animateOnReset="true"
+            app:zoomage_autoCenter="true"
+            app:zoomage_autoResetMode="UNDER"
+            app:zoomage_doubleTapToZoom="true"
+            app:zoomage_maxScale="8"
+            app:zoomage_minScale="0.6"
+            app:zoomage_restrictBounds="false"
+            app:zoomage_translatable="true"
+            app:zoomage_zoomable="true" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_theme"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_below="@+id/ll_pilih_file"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible"
+        tools:ignore="UseSwitchCompatOrMaterialXml">
+
+        <TextView
+            android:id="@+id/tv_theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/sw_theme"
+            android:elegantTextHeight="true"
+            android:textAlignment="center"
+            android:textColor="@color/teal_200"
+            android:textSize="@dimen/font_size_medium" />
+
+        <Switch
+            android:id="@+id/sw_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_simpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:text="Simpan"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</RelativeLayout>

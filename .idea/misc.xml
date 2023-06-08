@@ -1,0 +1,36 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/TEDAINDO/PROJECT/LATIHAN_DEDI/app/src/main/res/drawable/bg_border.xml" value="0.1215" />
+        <entry key="..\:/TEDAINDO/PROJECT/LATIHAN_DEDI/app/src/main/res/drawable/bg_bottom.xml" value="0.1575" />
+        <entry key="..\:/TEDAINDO/PROJECT/LATIHAN_DEDI/app/src/main/res/drawable/bg_shape_notification.xml" value="0.1575" />
+        <entry key="..\:/TEDAINDO/PROJECT/LATIHAN_DEDI/app/src/main/res/drawable/bg_top_shadow.xml" value="0.1575" />
+        <entry key="..\:/TEDAINDO/PROJECT/LATIHAN_DEDI/app/src/main/res/drawable/ic_more_vert.xml" value="0.1575" />
+        <entry key="..\:/TEDAINDO/PROJECT/LATIHAN_DEDI/app/src/main/res/drawable/ic_person.xml" value="0.1575" />
+        <entry key="..\:/TEDAINDO/PROJECT/LATIHAN_DEDI/app/src/main/res/layout/activity_latihan_dua.xml" value="0.25052083333333336" />
+        <entry key="..\:/TEDAINDO/PROJECT/LATIHAN_DEDI/app/src/main/res/layout/activity_latihan_tiga.xml" value="0.25052083333333336" />
+        <entry key="..\:/TEDAINDO/PROJECT/LATIHAN_DEDI/app/src/main/res/layout/activity_main.xml" value="0.25052083333333336" />
+        <entry key="..\:/TEDAINDO/PROJECT/LATIHAN_DEDI/app/src/main/res/layout/activity_splash.xml" value="0.1390625" />
+        <entry key="..\:/TEDAINDO/PROJECT/LATIHAN_DEDI/app/src/main/res/layout/activity_utama.xml" value="0.25052083333333336" />
+        <entry key="..\:/TEDAINDO/PROJECT/LATIHAN_DEDI/app/src/main/res/layout/bottom_navigation.xml" value="0.25052083333333336" />
+        <entry key="..\:/TEDAINDO/PROJECT/LATIHAN_DEDI/app/src/main/res/layout/dialog_lokasi.xml" value="0.25052083333333336" />
+        <entry key="..\:/TEDAINDO/PROJECT/LATIHAN_DEDI/app/src/main/res/layout/dialog_pilih_file.xml" value="0.25052083333333336" />
+        <entry key="..\:/TEDAINDO/PROJECT/LATIHAN_DEDI/app/src/main/res/layout/fragment_akun.xml" value="0.25052083333333336" />
+        <entry key="..\:/TEDAINDO/PROJECT/LATIHAN_DEDI/app/src/main/res/layout/fragment_home.xml" value="0.25052083333333336" />
+        <entry key="..\:/TEDAINDO/PROJECT/LATIHAN_DEDI/app/src/main/res/layout/fragment_lain.xml" value="0.2375" />
+        <entry key="..\:/TEDAINDO/PROJECT/LATIHAN_DEDI/app/src/main/res/layout/fragment_social_media.xml" value="0.2375" />
+        <entry key="..\:/TEDAINDO/PROJECT/LATIHAN_DEDI/app/src/main/res/layout/fragment_web.xml" value="0.2375" />
+        <entry key="..\:/TEDAINDO/PROJECT/LATIHAN_DEDI/app/src/main/res/layout/fragment_youtube.xml" value="0.25052083333333336" />
+        <entry key="..\:/TEDAINDO/PROJECT/LATIHAN_DEDI/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1575" />
+        <entry key="..\:/TEDAINDO/PROJECT/LATIHAN_DEDI/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1575" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
